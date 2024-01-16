@@ -1,7 +1,9 @@
-import smtplib, ssl
-from email.mime.text import MIMEText
+import smtplib
+import ssl
+
 from email.mime.multipart import MIMEMultipart
-from app.Repository.notification_repository import get_notifications, update_notification
+from email.mime.text import MIMEText
+from notification_repository import get_notifications, update_notification
 
 
 def process_email():

@@ -1,4 +1,4 @@
-from app.Service.mail_service import process_email
+from mail_service import process_email
 
 import time
 

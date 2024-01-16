@@ -1,20 +1,0 @@
-
-lpython:S116
-"NRename this field "Status" to match the regular expression ^[_a-z][_a-z0-9]*$.(·éƒÔ8µ‰ãîÏ1
-mpython:S116"JRename this field "To" to match the regular expression ^[_a-z][_a-z0-9]*$.(ÁŠ«¨øÿÿÿÿ8†÷êîÏ1
-opython:S116	"LRename this field "Type" to match the regular expression ^[_a-z][_a-z0-9]*$.(™ƒš¥úÿÿÿÿ8ÖİëîÏ1
-jpython:S116"LRename this field "Body" to match the regular expression ^[_a-z][_a-z0-9]*$.(²£ãŒ8ºÄëîÏ1
-qpython:S116"NRename this field "Sender" to match the regular expression ^[_a-z][_a-z0-9]*$.(æºÇàÿÿÿÿÿ8ˆÙêîÏ1
-vpython:S116"SRename this field "Attachments" to match the regular expression ^[_a-z][_a-z0-9]*$.(Êç’Èûÿÿÿÿ8²¦ëîÏ1
-vpython:S116"XRename this field "DateRegistration" to match the regular expression ^[_a-z][_a-z0-9]*$.(ğ™Ï8É¯ìîÏ1
-vpython:S116"SRename this field "DateSending" to match the regular expression ^[_a-z][_a-z0-9]*$.(Ù±Üöıÿÿÿÿ8šÇìîÏ1
-rpython:S116"ORename this field "Subject" to match the regular expression ^[_a-z][_a-z0-9]*$.(¨¢€ûÿÿÿÿ8–ëîÏ1
-zpython:S117"WRename this parameter "Attachments" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÿ¥æÑøÿÿÿÿ8ÇËíîÏ1
-spython:S117"PRename this parameter "Body" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÿ¥æÑøÿÿÿÿ8…èíîÏ1
-python:S117"\Rename this parameter "DateRegistration" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÿ¥æÑøÿÿÿÿ8æ»îîÏ1
-zpython:S117"WRename this parameter "DateSending" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÿ¥æÑøÿÿÿÿ8¥‡ïîÏ1
-upython:S117"RRename this parameter "Sender" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÿ¥æÑøÿÿÿÿ8—¤íîÏ1
-upython:S117"RRename this parameter "Status" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÿ¥æÑøÿÿÿÿ8¶‰ãîÏ1
-vpython:S117"SRename this parameter "Subject" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÿ¥æÑøÿÿÿÿ8—¤íîÏ1
-qpython:S117"NRename this parameter "To" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÿ¥æÑøÿÿÿÿ8—¤íîÏ1
-spython:S117"PRename this parameter "Type" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÿ¥æÑøÿÿÿÿ8÷…îîÏ1
