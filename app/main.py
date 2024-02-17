@@ -6,7 +6,7 @@ import time
 def main():
     while True:
         process_email()
-        time.sleep(30)
+        time.sleep(20)
 
 
 if __name__ == "__main__":
