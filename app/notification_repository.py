@@ -7,10 +7,10 @@ config = dotenv_values("../.env")
 client = MongoClient()
 
 # Connect with the portnumber and host
-client = MongoClient(config["ATLAS_URI"])
+client = MongoClient("mongodb+srv://angularmoneygroup:5139bpOk9VR1GeI7@ingressosaqui.t49bdes.mongodb.net/ingressosAqui?retryWrites=true&w=majority")
 
 # Access database
-database = client[config["DB_NAME"]]
+database = client["ingressosAqui"]
 
 # Access collection of the database
 collection = database['events']
