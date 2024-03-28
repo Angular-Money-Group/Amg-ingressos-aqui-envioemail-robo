@@ -1,3 +1,4 @@
+from bson import ObjectId
 from pymongo import MongoClient
 from dotenv import dotenv_values
 
@@ -17,7 +18,8 @@ collection = database['events']
 
 
 def get_notifications():
-    data = database.notification.find({'Status': 0})
+    id = "65ba51d4c50205e446205de8"
+    data = database.notification.find({'_id': ObjectId(id)})
     print(str(data))
     return data
 
