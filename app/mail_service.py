@@ -7,17 +7,23 @@ from notification_repository import get_notifications, update_notification
 
 
 def process_email():
+    id_notification = ""
     try:
         list_notification = get_notifications()
         for item in list_notification:
             print(item)
+            id_notification = item['_id']
             send_email(item)
-            update_notification(item['_id'])
+            update_notification(id_notification, 1)
         return "ok"
     except ValueError as error:
         print(error)
-    except :
+        if id_notification is not type(None):
+            update_notification(id_notification, 2)
+    except:
         print("houve um erro")
+        if id_notification is not type(None):
+            update_notification(id_notification, 2)
 
 
 def send_email(email):
